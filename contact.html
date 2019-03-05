@@ -2,24 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
- 	<header>
+	<header>
 		<div class="container">
 			<div class="name">
-				<div class="logo">Contact</div>
-    </header>
-  
-    <div class="content">
-            <div class="main">
-  
-            </div>
+				<div class="logo">Jake Smith</div>
+			</div>
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="#" class="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div class="content">
+		<div class="main">
+			<h1 class="page-title">Contact</h1>
+			<form action="#" class="contact">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Enter name here">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" placeholder="Enter email here">
+				<label for="name">Message</label>
+				<textarea rows="20" cols="60" name="message" id="message"></textarea>
+				<input type="submit" value="submit">
+			</form>
+		</div>	
     </div>
+    
 	<footer>
-            &copy; Copyright 2019
-    </footer>
-</body>
-</html>
+		&copy; Copyright
+	</footer>
