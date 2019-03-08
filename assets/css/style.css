@@ -22,6 +22,11 @@ header {
     border-color: #cccccc;
 }
 
+.logo:hover { 
+    background-color: rgb(208, 252, 49);
+    color:blue;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
