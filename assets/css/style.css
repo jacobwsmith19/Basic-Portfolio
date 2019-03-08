@@ -23,8 +23,8 @@ header {
 }
 
 .logo:hover { 
-    background-color: rgb(208, 252, 49);
-    color:blue;
+    background-color: rgb(49, 205, 252);
+    color:rgb(174, 227, 248);
 }
 
 .container {
