@@ -83,6 +83,18 @@ font-weight: bold;
     line-height: 1.5;
 }
 
+.main-contact {
+    width: 300px;
+    display: relative;
+    clear: both;
+    margin: 0 auto 6em auto;
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
 footer {
     text-align: center;
     background-color: #666666;
@@ -119,7 +131,7 @@ a {
     display: inline-block;
     width: 275px;
     height: 200px;
-    margin-right: 50px;
+    margin-right: 20px;
     border: 4px solid;
     border-color:black;
 }
